@@ -27,3 +27,4 @@ def multiThreads():
 
 if __name__=='__main__':
     multiThreads()
+    multiArgs([1,'taro',lambda:print('test')])
